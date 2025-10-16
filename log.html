@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="sendbtn">
+        <button id="wrong">❌</button>
+        <div class="amt">
+            <input class="ip"  id="em" type="email" placeholder="Enter email">
+            <input class="ip" id="atm" type="number" placeholder="Enter amount">
+
+            <button id="fsend"> send</button>
+
+        </div>
+        <div class="loading">
+            <div class="load1">
+                <div class="lod">
+                    
+
+                </div>
+                
+                
+            </div>
+            <span id="asms"> </span>
+            
+            
+
+
+        </div>
+
+
+    </div>
+    <nav>
+        <i class="fa-solid fa-building-columns"></i>
+        <h1>SECURE BANK</h1>
+        <div class="btns">
+            <button class="bt">Dashboard</button>
+            <button class="bt">Help</button>
+            <button class="bt" id="out">Logout</button>
+        </div>
+    </nav>
+    <div class="lt">
+        <div class="left">
+            <h1>WELCOME</h1>
+            <p>USER</p>
+
+        </div>
+        <div class="rt">
+            <div class="top">
+                <div class="bal">
+                    <p id="Balance">Balance:</p>
+                    <br>
+                    <p>₹</p>
+                    <p id="value">1000</p>
+                </div>
+                <div class="sr">
+                    <button id="send" class="sre">send</button>
+                    <br>
+                    <button id="receive" class="sre">receive</button>
+
+                </div>
+            </div>
+            <div class="bottom">
+                <p id="part">recent transaction:</p>
+                <!-- <div class="hist">
+                    <span id="ht"></span>
+                    <span id="a"></span>
+                </div> -->
+            </div>
+
+        </div>
+    </div>
+
+    <script src="log.js"></script>
+
+</body>
+
+</html>
